@@ -5,6 +5,15 @@ body {
   margin: 0;
 }
 
+/* SOCIAL MEDIA FIXED SECTION */
+
+.social-media-fixed {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+}
+
 /* HEADER SECTION */
 
 header {
