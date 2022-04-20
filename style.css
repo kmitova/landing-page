@@ -27,6 +27,14 @@ header {
   background-color: #744253;
 }
 
+.logo-header {
+  padding: 0.3em;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 1em;
+}
+
+
 ul {
   display: flex;
 
@@ -42,6 +50,10 @@ li {
 a {
   text-decoration: none;
   color: white;
+}
+
+a:hover {
+  color: #dee2e6;
 }
 
 h3 {
@@ -96,7 +108,7 @@ h3 {
 }
 
 button {
-  background-color: black;
+  background-color: #744253;
   border-radius: 10%;
   color: white;
   padding: 9px;
@@ -104,8 +116,11 @@ button {
   border: none;
   cursor: pointer;
   font-weight: bold;
+  border: 2px solid white;
 }
-
+.hero button:hover {
+  background-color: black;
+}
 h1 {
   font-size: 3rem;
   text-align: center;
@@ -234,6 +249,12 @@ h2 {
 .right-side-call button {
   border: 2px solid white;
   border-radius: 15px;
+  background-color: black;
+  color: white;
+}
+
+.right-side-call button:hover {
+  background-color: #744253;
 }
 
 .left-side-call h4,
