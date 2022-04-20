@@ -47,6 +47,8 @@ h3 {
   font-size: 1rem;
 }
 
+
+
 /* MAIN SECTION */
 
 .hero {
@@ -63,8 +65,8 @@ h3 {
   width: 400px;
 }
 
-.right-side-hero {
-  width: 400px;
+/* .right-side-hero {
+  width: 600px;
   height: 300px;
   background-color: gray;
   text-align: center;
@@ -72,6 +74,15 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.bts-hero {
+  width: 100%;
+  height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
 }
 
 button {
