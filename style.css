@@ -17,6 +17,10 @@ body {
   background-color: #eae0d5;
 }
 
+.social-media-fixed a:hover {
+  transform: scale(1.5);
+}
+
 /* HEADER SECTION */
 
 header {
