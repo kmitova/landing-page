@@ -197,6 +197,21 @@ h2 {
   font-style: italic;
 }
 
+/* VIDEO SECTION */
+
+iframe {
+  display: block;
+  margin: auto;
+  padding: 3em;
+}
+
+.video-container h3 {
+  padding-top: 3em;
+  /* font-size: 1em; */
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 /* QUOTE */
 
