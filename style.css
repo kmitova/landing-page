@@ -409,7 +409,8 @@ footer {
   }
 
   .mobile-image-only {
-    visibility: visible;
+    
+
     width: 100%;
     display: block;
   }
