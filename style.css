@@ -149,6 +149,15 @@ p {
   border-radius: 5px;
 }
 
+/* mobile img */
+
+.mobile-only-image {
+  visibility: hidden;
+  display: none;
+}
+
+
+
 /* CARDS SECTION */
 
 .container {
@@ -322,5 +331,90 @@ footer {
     height: 500px;
     
   }
+  .mobile-only-image {
+    visibility: hidden;
+    display: none;
+  }
 }
 
+/* PHONE RESPONSIVENESS */
+
+@media (max-width: 480px) {
+  /* .hero {
+    display: unset;
+    padding: 0;
+
+  } */
+
+  /* HERO SECTION */
+  .hero {
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right-side-hero {
+    visibility: hidden;
+    display: none;
+  }
+  h1 {
+    text-align: center;
+    font-size: 1em;
+  }
+  .left-side-hero {
+    border: 2px solid red;
+    margin: auto;
+    width: auto;
+    
+
+  }
+  .hero img {
+    visibility: hidden;
+    display: none;
+  }
+
+  .mobile-image-only {
+    visibility: visible;
+    width: 100%;
+    display: block;
+  }
+
+  /* CARDS */
+  .cards-container {
+    display: block;
+  }
+  .video-container {
+    visibility: hidden;
+    display: none;
+  }
+
+  /* QUOTE */
+
+  .quote-container {
+    height: 460px;
+  }
+
+  .quote  {
+    color: white;
+    font-size: 20px;
+    padding-top: 0;
+  }
+  .name {
+    font-size: 15px;
+  }
+
+  /* CALL TO ACTION */
+  .content {
+    width: 200px;
+    display: block;
+  }
+  .right-side-call {
+    margin: 0 auto;
+    border: 4px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
