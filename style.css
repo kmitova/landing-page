@@ -311,6 +311,10 @@ footer {
 .hero-mobile {
   display: none;
 }
+
+.close, .menu {
+  display: none;
+}
 @media (max-width: 420px) {
 
   /* QUOTE SECTION */
@@ -342,6 +346,10 @@ footer {
   .hero-mobile {
     display: none;
   }
+  .close,
+  .menu {
+    display: none;
+  }
 }
 
 /* PHONE RESPONSIVENESS */
@@ -352,7 +360,14 @@ footer {
     padding: 0;
 
   } */
-
+  /* NAVIGATION */
+  .navbar {
+    display: none;
+  }
+  .menu {
+    display: block;
+    
+  }
   /* HERO SECTION */
 
   .hero {
