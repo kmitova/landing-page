@@ -423,11 +423,11 @@ footer {
     margin-bottom: 20px;
   }
 
-  .mobile-image-only {
-    
-
+  .mobile-only-image {
+    display: unset;
+    visibility: visible;
     width: 100%;
-    display: block;
+    
   }
 
   /* CARDS */
