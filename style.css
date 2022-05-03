@@ -372,8 +372,45 @@ footer {
     width: 100%;
   }
   iframe {
-    width: 100%;
+    width: 50%;
+    height: auto;
   }
+  .hero {
+    /* overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center; */
+    display: none;
+  }
+  /* .left-side-hero {
+    margin: auto;
+    border: 4px solid black;
+    
+  } */
+    .hero-mobile {
+      display: block;
+      background-color: #c78283;
+      /* margin: 0;
+        padding:; */
+      overflow: hidden;
+    }
+    
+    .hero-mobile h1,
+    p {
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin: 40px;
+    }
+    
+    .hero-mobile h1 {
+      font-size: 2em;
+    }
+    
+    .hero-mobile button {
+      margin-bottom: 20px;
+    }
+  
 } 
 
 /* PHONE RESPONSIVENESS */
