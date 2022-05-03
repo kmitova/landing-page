@@ -256,6 +256,10 @@ iframe {
   color: white;
 }
 
+.video-container {
+  width: 100%;
+}
+
 /* CALL TO ACTION SECTION */
 
 .call-to-action-container {
@@ -350,13 +354,27 @@ footer {
   .menu {
     display: none;
   }
-  .hero {
+  /* .hero {
     display: flex;
   }
   .left-side-hero {
-    flex: 1;
+    flex: 2;
+  } */
+  .right-side-hero {
+    display: none;
   }
-}
+  .mobile-only-image {
+      display: unset;
+      visibility: visible;
+      width: 100%;
+  }
+  .video-container {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+} 
 
 /* PHONE RESPONSIVENESS */
 
