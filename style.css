@@ -333,7 +333,7 @@ footer {
 
 /* TABLET RESPONSIVENESS */
 
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
   /* QUOTE SECTION */
   .quote-container {
     height: 500px;
@@ -350,11 +350,17 @@ footer {
   .menu {
     display: none;
   }
+  .hero {
+    display: flex;
+  }
+  .left-side-hero {
+    flex: 1;
+  }
 }
 
 /* PHONE RESPONSIVENESS */
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   /* .hero {
     display: unset;
     padding: 0;
