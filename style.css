@@ -285,7 +285,7 @@ iframe {
 
 .call-to-action-container {
   width: 100%;
-  height: 300px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -364,6 +364,12 @@ footer {
     height: 500px;
     
   } */
+
+    /* TOP SECTION */
+  .social-media-connect {
+      color: black;
+  }
+
   .mobile-only-image {
     visibility: hidden;
     display: none;
@@ -445,6 +451,11 @@ footer {
     padding: 0;
 
   } */
+
+  /* TOP SECTION */
+  .social-media-connect {
+    color: black;
+  }
   /* NAVIGATION */
 
   .navbar {
@@ -584,8 +595,10 @@ footer {
 
   /* CALL TO ACTION */
   .content {
-    width: 200px;
+    width: fit-content;
+    height: auto;
     display: block;
+    margin: 1em;
   }
   .right-side-call {
     margin: 0 auto;
@@ -593,5 +606,9 @@ footer {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+  }
+  .right-side-call h4, p {
+    padding: 0;
+    margin: 1em;
   }
 }
