@@ -450,16 +450,16 @@ footer {
   .navbar {
     display: unset;
     position: fixed;
-    z-index: 999;
-    width: 50%;
+    z-index: 100;
+    width: 35%;
     right: 0;
     top: 0;
-    background: #dee2e6;
     height: 100vh;
     padding: 1em;
   }
   .navbar {
     display: none;
+    background-color: #eae0d5;
   }
   .navbar.menu-btn {
     display: block;
@@ -475,6 +475,10 @@ footer {
     /* style later */
   }
 
+  li a:hover {
+    color: black;
+  }
+
   .menu {
     display: block;
     
@@ -487,7 +491,7 @@ footer {
   .mobile-menu-exit {
     display: unset;
     float: right;
-    margin: .5em;
+    margin: 1.2em;
     cursor: pointer;
   }
   
