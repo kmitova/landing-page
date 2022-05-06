@@ -170,6 +170,7 @@ p {
   margin: 0 0;
   position: relative;
   top: -27px;
+  border: 5px solid #eae0d5
   
 }
 
@@ -234,6 +235,8 @@ iframe {
 .quote-container {
   background-color: #744253;
   width: 100%;
+  margin: 0;
+  border: #744253 1px solid;
   /* height: 400px; */
 }
 
@@ -608,8 +611,15 @@ footer {
   .name {
     font-size: 15px;
   } */
+  /* .video-container {
+    display: unset;
 
+  }
+  iframe {
+    display: unset;
+    visibility: visible;
 
+  } */
   /* CALL TO ACTION */
   .content {
     width: fit-content;
