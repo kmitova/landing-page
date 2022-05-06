@@ -440,6 +440,15 @@ footer {
     .mobile-menu, .mobile-menu-exit {
       display: none;
     }
+
+    /* CALL TO ACTION */
+    .content {
+      margin: 2em 5em 2em 5em
+    }
+    .content p, h4 {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
   
 } 
 
