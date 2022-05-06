@@ -324,7 +324,7 @@ p {
 /* FOOTER */
 footer {
   width: 100%;
-  height: 100px;
+  height: auto;
   background-color: black;
   color: white;
   display: flex;
@@ -449,6 +449,13 @@ footer {
     .content p, h4 {
       padding-bottom: 0;
       padding-top: 0;
+    }
+
+    /* FOOTER */
+
+    footer p {
+      padding: 0;
+      margin: 1.4em;
     }
   
 } 
