@@ -302,6 +302,7 @@ iframe {
   padding: 0 50px 0 50px;
   width: 600px;
   border-radius: 25px;
+  margin: 4em;
 }
 
 .right-side-call button {
